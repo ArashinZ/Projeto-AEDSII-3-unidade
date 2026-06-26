@@ -1,7 +1,7 @@
 #ifndef HASH_H
 #define HASH_H
 
-#define HASH_SIZE 101
+#define HASH_SIZE 100017 //numero primo, ajuda bastante pra evitar colisao
 
 typedef struct No{
     char usuario[50];
