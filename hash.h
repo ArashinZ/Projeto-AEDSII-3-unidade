@@ -11,5 +11,6 @@ typedef struct No{
 void inicializarHash();
 void inserirHash(const char *usuario);
 int buscarHash(const char *usuario);
+void liberarhash();
 
 #endif
