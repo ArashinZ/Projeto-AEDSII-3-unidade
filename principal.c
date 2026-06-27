@@ -357,6 +357,7 @@ int main(void)
     } while (opcao != 0);
 
     /* --- Liberação de memória --- */
+    liberarHash();
     bloom_destruir(bloom);
     return EXIT_SUCCESS;
 }
