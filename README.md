@@ -1,1 +1,1 @@
-# Sistema de Consulta Eficiente com Tabela Hash eFiltro de Bloom
+# Sistema de Consulta Eficiente com Tabela Hash e Filtro de Bloom
