@@ -1,8 +1,8 @@
 # Sistema de Consulta Eficiente com Tabela Hash e Filtro de Bloom
-## 📌 Visão Geral
+## Visão Geral
 O nosso sistema envolve a verificação de cadastro de usuários utilizando linguagem C, usando tabela hash e filtro de bloom.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 - ✅ Cadastra um novo usuário por identificador único
 - ✅ Consulta com dois estágios com fluxo obrigatorio na consulta do filtro de bloom
 - ✅ Exibe métricas em tempo real de:
@@ -13,7 +13,7 @@ O nosso sistema envolve a verificação de cadastro de usuários utilizando ling
     - Tempo médio de consulta
 - ✅ Inseção em lote carregando um arquivo .txt com varios usuários de uma vez
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 ### Linguagens
 - C
 ### Bibliotecas
@@ -22,12 +22,12 @@ O nosso sistema envolve a verificação de cadastro de usuários utilizando ling
 - string.h
 - time.h
 - math.h
-## 📦 Pré-requisitos
+## Pré-requisitos
 Para rodar o projeto, instale:
 
 - MinGW: https://sourceforge.net/projects/mingw/
 - Expansão C/C++ no VsCode
-## 🚀 Instalação e Execução
+## Instalação e Execução
 Clone o repositório:
 
 git clone https://github.com/ArashinZ/Projeto-AEDSII-3-unidade.git
@@ -45,28 +45,19 @@ Para executar o projeto:
 
 ./sistema
 
-para fazer os experimentos:
-
-gcc principal.c hash.c fbloom.c -lm -o experimentos
-
-./experimentos
-
-
-## 🗂 Estrutura do Projeto
-
+## Estrutura do Projeto
+```
 projeto/
+├── data/
+│   ├── usuarios_1000k.txt 
+│   ├── usuarios_10000k.txt
+│   ├── usuarios_100000k.txt
+│   ├── usuarios_100k.txt 
+│   ├── usuarios_10k.txt
+│   └── usuarios_1k.txt
 ├── src/
 │   ├── hash.h 
 │   ├── hash.c          
 │   ├── Fbloom.h        
 │   ├── Fbloom.c        
 │   └── principal.c    
-│
-├── data/
-│   ├── usuarios_1k.txt 
-│   ├── usuarios_10k.txt
-│   └── usuarios_100k.txt
-│
-├── gerar_dados.c
-├── README.md
-└── relatorio.pdf
