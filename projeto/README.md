@@ -53,6 +53,8 @@ Para executar o projeto:
 
 ./experimentos
 
+Quando selecionar a 4º e a 5º opção do menu, é necessario colocar o caminho do arquivo. Basta ir no aequivo, apertar com o botão direito do mouse e ir na opção "copiar o caminho" e colar no terminal, para que seja realizado o processo escolhido.
+
 ## Formato de Entrada
 Inserção manual (opção 1)
 
