@@ -55,9 +55,10 @@ projeto/
 │   ├── usuarios_100k.txt 
 │   ├── usuarios_10k.txt
 │   └── usuarios_1k.txt
-├── src/
-│   ├── hash.h 
-│   ├── hash.c          
-│   ├── Fbloom.h        
+├── src/       
 │   ├── Fbloom.c        
+│   ├── Fbloom.h
+│   ├── experimentos.c
+│   ├── hash.c 
+│   ├── hash.h  
 │   └── principal.c    
