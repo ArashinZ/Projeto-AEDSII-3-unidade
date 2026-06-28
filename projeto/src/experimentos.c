@@ -163,3 +163,7 @@ int main(void)
         printf("    Taxa FP real           : %.4f%%\n", r->fp_pct);
         printf("    Ganho de tempo         : %.2f%%\n", r->ganho_pct);
     }
+ 
+    return EXIT_SUCCESS;
+}
+ 

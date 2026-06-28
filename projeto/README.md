@@ -49,6 +49,8 @@ para fazer os experimentos:
 
 gcc principal.c hash.c fbloom.c -lm -o experimentos
 
+./experimentos
+
 
 ## 🗂 Estrutura do Projeto
 
