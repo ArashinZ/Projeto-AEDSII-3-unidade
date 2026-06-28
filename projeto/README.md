@@ -45,6 +45,68 @@ Para executar o projeto:
 
 ./sistema
 
+Compile o código:
+
+gcc principal.c hash.c fbloom.c -lm -o experimentos
+
+Para executar o projeto:
+
+./experimentos
+
+## Formato de Entrada
+Inserção manual (opção 1)
+
+Nome do usuario: joao123
+
+ 
+Carregamento em lote (opção 4)
+
+Arquivo .txt com um usuário por linha:
+
+joao123
+
+ maria98
+
+ pedro45
+
+ 
+Formato dos arquivos gerados (Parte 3)
+
+Padrão: 8 letras minúsculas + 3 dígitos
+
+islaifda122
+
+ djskalsa297
+
+ fjkldsaf881
+
+ 
+
+Exemplos de Execução
+Inserção e consulta
+
+Opcao: 1
+
+ Nome do usuario: alice99
+
+ [OK] Usuario 'alice99' inserido.
+
+ 
+
+ Opcao: 2
+
+ Nome do usuario: alice99
+
+ -> Usuario encontrado
+
+ 
+
+ Opcao: 2
+
+ Nome do usuario: bob999
+
+ -> Usuario inexistente
+
 ## Estrutura do Projeto
 ```
 projeto/
