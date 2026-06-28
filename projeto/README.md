@@ -1,5 +1,4 @@
 # Sistema de Consulta Eficiente com Tabela Hash e Filtro de Bloom
-<<<<<<< HEAD
 
 ## Descrição
 
@@ -7,66 +6,11 @@ Sistema de verificação de cadastro de usuários que integra duas estruturas de
 
 - **Tabela Hash** com encadeamento externo — armazenamento e recuperação exata
 - **Filtro de Bloom** — estrutura probabilística que acelera consultas de existência
-=======
-## Visão Geral
-O nosso sistema envolve a verificação de cadastro de usuários utilizando linguagem C, usando tabela hash e filtro de bloom.
-
-## Funcionalidades
-- ✅ Cadastra um novo usuário por identificador único
-- ✅ Consulta com dois estágios com fluxo obrigatorio na consulta do filtro de bloom
-- ✅ Exibe métricas em tempo real de:
-    - Total de elementos armazenados
-    - Total de consultas realizadas
-    - Consultas evitadas pelo bloom
-    - Número e taxa de falsos positivos 
-    - Tempo médio de consulta
-- ✅ Inseção em lote carregando um arquivo .txt com varios usuários de uma vez
-
-## Tecnologias Utilizadas
-### Linguagens
-- C
-### Bibliotecas
-- stdio.h
-- stdlib.h
-- string.h
-- time.h
-- math.h
-## Pré-requisitos
-Para rodar o projeto, instale:
-
-- MinGW: https://sourceforge.net/projects/mingw/
-- Expansão C/C++ no VsCode
-## Instalação e Execução
-Clone o repositório:
->>>>>>> 0d17d8c1d7b9c3c5a64a9bc034643dec8109a487
 
 O Filtro de Bloom atua como "porteiro" antes da Tabela Hash: se ele afirma que um usuário **definitivamente não existe**, a Hash não é consultada. Se diz "possivelmente existe", a Hash confirma.
 
 ---
 
-<<<<<<< HEAD
-=======
-cd projeto
-cd source
-
-Compile o código:
-
-gcc principal.c hash.c fbloom.c -lm -o sistema
-
-Para executar o projeto:
-
-./sistema
-
-para compilar os testes: 
-
-cd testes
-gcc experimentos.c hash.c Fbloom.c -lm -o experimentos
-
-para executar:
-
-./experimentos
-
->>>>>>> 0d17d8c1d7b9c3c5a64a9bc034643dec8109a487
 ## Estrutura do Projeto
 
 ```
@@ -79,7 +23,6 @@ projeto/
 │   ├── principal.c     — Menu interativo principal
 │   └── experimentos.c  — Programa de experimentos automatizados (Parte 3)
 ├── data/
-<<<<<<< HEAD
 │   ├── usuarios_1k.txt     — 1.000 usuários para inserção
 │   ├── usuarios_10k.txt    — 10.000 usuários para inserção
 │   ├── usuarios_100k.txt   — 100.000 usuários para inserção
@@ -217,11 +160,3 @@ Tempo medio por consulta   : 1842.50 ns
 | Integrante 1 | hash.c / hash.h — Tabela Hash |
 | Integrante 2 | Fbloom.c / Fbloom.h — Filtro de Bloom |
 | Integrante 3 | principal.c / experimentos.c + relatório |
-=======
-│   ├── usuarios_1k.txt 
-│   ├── usuarios_10k.txt
-│   └── usuarios_100k.txt
-│
-├── README.md
-└── relatorio.pdf
->>>>>>> 0d17d8c1d7b9c3c5a64a9bc034643dec8109a487
