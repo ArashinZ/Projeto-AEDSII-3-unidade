@@ -37,7 +37,7 @@ Entre na pasta do projeto:
 cd projeto
 cd source
 
-Compile o código:
+Compile o principal:
 
 gcc principal.c hash.c fbloom.c -lm -o sistema
 
@@ -45,7 +45,7 @@ Para executar o projeto:
 
 ./sistema
 
-Compile o código:
+Compile o experimentos:
 
 gcc principal.c hash.c fbloom.c -lm -o experimentos
 
