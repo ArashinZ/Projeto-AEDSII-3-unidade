@@ -62,27 +62,29 @@ Nome do usuario: joao123
 Carregamento em lote (opção 4)
 
 Arquivo .txt com um usuário por linha:
-
+```
 joao123
 
  maria98
 
  pedro45
-
+```
  
 Formato dos arquivos gerados (Parte 3)
 
 Padrão: 8 letras minúsculas + 3 dígitos
 
+```
 islaifda122
 
  djskalsa297
 
  fjkldsaf881
 
+```
  
 
-Exemplos de Execução
+## Exemplos de Execução
 Inserção e consulta
 
 Opcao: 1
