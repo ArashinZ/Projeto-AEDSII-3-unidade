@@ -61,4 +61,5 @@ projeto/
 │   ├── experimentos.c
 │   ├── hash.c 
 │   ├── hash.h  
-│   └── principal.c    
+│   └── principal.c
+│   └── README.md
